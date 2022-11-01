@@ -1,0 +1,526 @@
+body{
+  font-family: popins;
+}
+
+
+.container {
+  padding: 0;
+  position: absolute;
+  width: 78px;
+  height: 85px;
+  left: 110px;
+  top: 12px;
+}
+
+/* .nav{
+  background-color: #F69580;
+  position: absolute;
+  width:100%;
+  height: 109px;
+  left: 0px;
+  top: 0px;
+} */
+
+.home{
+  /* justify-content: center; */
+  font-weight: bold;
+  text-decoration: underline;
+  top: 50%;
+  left: 50%;
+}
+.contact-us{
+  top: 32px;
+  left: 1175px;
+}
+
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+  z-index: 2;
+}
+
+.navbar ul div a {
+  color: white;
+  font-size: 25px;
+
+}
+
+.body-container{
+  width: 100%;
+  background-image: linear-gradient(#F9957F, white);
+}
+
+.body-container #workshop-section{
+  height:140vh;
+  position: relative;
+  overflow-x: clip;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.body-container .workshop-text{
+  font-size: 96px;
+  color: #4E4E4E;
+  font-weight: bold;
+  text-align: center;
+  top: 286px;
+  left: 434px;
+  margin-bottom: 40px;
+  z-index: 1;
+ 
+}
+.event-text{
+  font-size: 60px;
+  color: #9E616A;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 90px;
+  margin-bottom: 40px;
+}
+.body-container .learn-more {
+  width: 264px;
+  height: 69px;
+  border: 5px solid #4E4E4E;
+  font-weight: bold;
+  border-radius: 49px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  z-index: 1;
+  text-decoration: none;
+  color:#4E4E4E;
+}
+.learn-more:hover{
+  color: #F69580;
+  font-weight: bold;
+  background: #4E4E4E;
+  
+}
+
+.bulan {
+  position: absolute;
+  top: 23%;
+  right: 80%;
+  z-index: 0;
+}
+
+.rectangle{
+  position: absolute;
+  left: 71.39%;
+  right: 13.4%;
+  top: 118px;
+  bottom: 1028px;
+  z-index: 0;
+
+  animation: saturn 4s infinite;
+}
+@keyframes saturn {
+  50%{transform: rotate(30deg);}
+}
+
+
+.image5{
+  position: absolute;
+  width: 563px;
+  height: 456px;
+  /* right: -40px; */
+  left: 85%;
+  top: 750px;
+  mix-blend-mode: multiply;
+  z-index: 0;
+
+   animation-name: example;
+   animation-duration: 4s;
+    animation-iteration-count: infinite;
+    /* animation-direction: alternate; */
+    animation-timing-function: ease-in-out;
+}
+.image5 img{
+  animation-name: ukuran;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  from  {left: 85%;;  top: 550px}
+  to  {left:-1000px; top:2800px;}
+  /* 100% {display:none;} */
+}
+@keyframes ukuran{
+  from {width: 563px;height: 456px;}
+  to {width: 100px;height: 70px;}
+}
+
+.kotak-container-1{
+  position: relative;
+  padding: 0;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.kotak-container-2{
+  position: relative;
+  padding: 0;
+  margin-top: 60px;
+  width: auto;
+  height: auto;
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+.kotak{
+  position: relative;
+  border-radius: 40px;
+  padding:0;
+  height: 600px;
+  width: 500px;
+  background: #FFFFFF;
+  margin-left: 40px;
+  margin-right: 40px;
+  border: 1px solid #ccc;
+  justify-content: center;
+}
+.kotak-2{
+  position: relative;
+  border-radius: 40px;
+  padding: 0;
+  height: 600px;
+  width: 500px;
+  background: #FFFFFF;
+  margin-left: 40px;
+  margin-right: 40px;
+  border: 1px solid #ccc;
+  justify-content: center;
+}
+/* #aboutus-section {
+  height: 80vh;
+  
+} */
+
+#aboutus-section .content-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* width: 100%; */
+  padding: 0 10%;
+  margin-top: 80px;
+}
+
+#aboutus-section .content-wrapper .himti-logo {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+}
+
+#aboutus-section .content-wrapper .content-text {
+  width : 50%;
+  font-size: 24px;
+}
+
+.workshop-number{
+  text-align: center;
+  color: #000000;
+  font-size: 25px;
+}
+
+#gambar-workshop{
+   position: relative;
+  border: 1px hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gambar-workshop-1{
+  width: 290px;
+  height: 280px;
+}
+.gambar-workshop-2{
+  width: 300px;
+  height: 280px; 
+}
+.gambar-workshop-3{
+  margin-left: 15%;
+  height: 200px;
+  width: 280px;
+}
+
+.register{
+  width: 70%;
+  height: 69px;
+  color: #F69580;
+  border: 5px solid #F69580;
+  background: white;
+  border-radius: 49px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  margin-left: 15%;
+  text-decoration: none;
+}
+.register:hover{
+  color: white;
+
+  background: #F69580;
+}
+.workshop-text-2{
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+}
+
+/* #contactus-section {
+  height: 80vh;
+} */
+
+.email-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 24px;
+
+}
+
+.email-form #email-box  {
+  width: 50%;
+  height: 61px;
+  border-radius: 30px 0 0 30px;
+  border: none;
+
+    padding: 0 30px;
+}
+
+.email-form #submit-button {
+  width: 15%;
+  height: 61px;
+  border-radius: 0 30px 30px 0; 
+  background: #F69580;
+
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border:none;
+}
+
+.email-form #submit-button:hover {
+  color: #F69580;
+
+  background: white;
+  border: 5px solid #F69580;
+
+}
+
+.contact-text{
+  text-align: center;
+  font-size: 30px;
+  margin: 30px 0;
+}
+
+.contact-detail {
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.line-contact {
+  font-weight: normal;
+}
+
+.container-2{
+  /* height: 391px; */
+  background-color: #FFAD9B;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.container-2 .footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+  padding: 0 10%;
+  margin-top: 30px;
+}
+
+.footer-content .logo{
+  height: 310;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+}
+
+
+.footer-content .social-media-wrapper {
+  display: flex;
+  flex-direction: column;
+
+  /* width: 20%; */
+}
+
+.social-media-wrapper .social-media {
+  margin: 20px 0;
+  font-size: 24px;
+}
+
+.copy-right {
+  margin-top: 30px;
+  font-size: 32px;
+  text-align: center;
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+.kotak-container-1{display:block;
+padding: 0;
+}
+.kotak{
+  margin: 60px;
+  height: auto;
+}
+
+.kotak, .kotak-2 {
+  width: 60%;
+
+}
+
+/* .kotak img, .kotak-2 img {
+  width: 55%;
+  height: auto;
+} */
+
+#aboutus-section .content-wrapper {
+  flex-direction: column;
+  text-align: justify;
+  margin-top:40px; 
+}
+
+#aboutus-section .content-wrapper .content-text {
+  margin-top:20px;
+  width: 100%; 
+}
+
+.footer-content .logo{
+  display:block;
+  padding:10px;
+}
+
+.footer-content .logo img {
+  width: 100%;
+  height: auto;
+}
+
+.copy-right {
+  font-size: 24px;
+}
+
+.contact-detail {
+  flex-direction: column;
+  height: 300px;
+}
+
+}
+
+@media only screen and (max-width: 600px) {
+
+  .kotak{
+    display:block;
+  padding: 0;
+  height: auto;
+}
+
+  .kotak-2{
+    display:block;
+  padding: 0;
+  height: auto;
+}
+  .body-container .workshop-text {
+    font-size: 52px;
+  }
+
+  .email-form #email-box {
+    height: 40px;
+    font-size: 16px;
+  }
+
+  .email-form #submit-button {
+    height: 40px;
+    font-size: 16px;
+  }
+  
+  .event-text {
+    font-size: 32px;
+  }
+
+  .footer-content .logo {
+    width: 35%;
+  }
+  
+  .footer-content .logo img {
+    width: 80px;
+    height: auto;
+  }
+
+  .copy-right {
+    font-size: 16px;
+  }
+
+  .social-media img {
+    width: 18px;
+  }
+
+  .social-media-wrapper .social-media {
+    font-size: 16px;
+  }
+
+  .contact-text,
+  #aboutus-section .content-wrapper .content-text {
+    font-size: 15px;
+  }
+
+
+.gambar-workshop-1{
+  width: 190px;
+  height: 180px;
+}
+.gambar-workshop-2{
+  width: 200px;
+  height: 180px; 
+}
+.gambar-workshop-3{
+  margin-left: 15%;
+  height: 100px;
+  width: 180px;
+}
+
+.workshop-text-2 {
+  font-size: 16px;
+}
+
+.register {
+  font-size: 12px;
+}
+
+}
